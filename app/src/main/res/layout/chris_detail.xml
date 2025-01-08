@@ -1,0 +1,124 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--box profil-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/boxborder"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/chris"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/shape"
+                android:clipToOutline="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chris Do"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="| CEO and Founder"
+                    android:textColor="@color/blue"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--box biodata-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/boxborder"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thefutur"
+                android:textColor="@color/darkgrey"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chris Do is an Emmy award-winning designer, director, CEO and Chief Strategist of Blind and the founder of The Futur—an online education platform with the mission of teaching 1 billion people how to make a living doing what they love."
+                android:textColor="@color/darkgrey"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+
+        <!--box button-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/boxborder"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <Button
+                android:id="@+id/btnInstagram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Web"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnTwitter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Instagram"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:layout_marginEnd="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

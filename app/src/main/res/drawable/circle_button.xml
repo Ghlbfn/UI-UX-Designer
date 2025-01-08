@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@android:color/white" /> <!-- Set the background color to white -->
+    <size android:width="35dp" android:height="35dp" /> <!-- Set the size to create a circular button -->
+</shape>

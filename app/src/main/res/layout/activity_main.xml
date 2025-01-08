@@ -1,0 +1,276 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/grey">
+
+    <!-- Highlight Title -->
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UI/UX"
+        android:textSize="60sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="-18dp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Designer"
+        android:textSize="34sp"
+        android:textColor="@color/cyan"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="27dp" />
+
+    <!-- Profile Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:layout_gravity="center">
+
+        <!-- Profile 1 -->
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/boxborder"
+            android:layout_margin="8dp"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/anfisa"
+                android:background="@drawable/shape"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anfisa Bogomolova"
+                android:textSize="16sp"
+                android:textColor="@color/darkgrey"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:text="Detail"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <!-- Profile 2 -->
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/boxborder"
+            android:layout_margin="8dp"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/maureen"
+                android:background="@drawable/shape"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maureen Herben"
+                android:textStyle="bold"
+                android:textColor="@color/darkgrey"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:text="Detail"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <!-- Profile 3 -->
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/boxborder"
+            android:layout_margin="8dp"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/patricia"
+                android:background="@drawable/shape"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patricia Reiners"
+                android:textColor="@color/darkgrey"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:text="Detail"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <!-- Profile 4 -->
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/boxborder"
+            android:layout_margin="8dp"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/jessica"
+                android:background="@drawable/shape"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jessica Walsh"
+                android:textStyle="bold"
+                android:textColor="@color/darkgrey"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:text="Detail"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <!-- Profile 5 -->
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/boxborder"
+            android:layout_margin="8dp"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/zander"
+                android:background="@drawable/shape"
+                android:clipToOutline="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zander Whitehurst"
+                android:textStyle="bold"
+                android:textColor="@color/darkgrey"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:text="Detail"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <!-- Profile 6 -->
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/boxborder"
+            android:layout_margin="8dp"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/chris"
+                android:background="@drawable/shape"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chris Do"
+                android:textStyle="bold"
+                android:textColor="@color/darkgrey"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:text="Detail"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,140 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/boxborder2"
+            android:text="&#60;"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"/>
+
+        <!--box profil-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/boxborder"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zander"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/shape"
+                android:clipToOutline="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zander Whitehurst"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="| UX/UI designer"
+                    android:textColor="@color/cyan"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--box biodata-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/boxborder"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memorisely"
+                android:textColor="@color/darkgrey"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memorisely was founded by Zander Whitehurst in 2020 with the belief that UX/UI Design training should be accessible, relevant, and practical. Memorisely offers flexible, practical courses and live, cohort-based bootcamps for all skill levels, focusing on the philosophy that skilled designers drive business success."
+                android:textColor="@color/darkgrey"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+
+        <!--box button-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/boxborder"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <Button
+                android:id="@+id/btnWeb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Web"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnInstagram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Instagram"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:layout_marginEnd="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
